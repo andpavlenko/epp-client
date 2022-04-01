@@ -36,7 +36,7 @@ interface RequestInterface
      *
      * @return DOMElement|false
      */
-    public function createElement($name, $value = null);
+    public function createElement(string $name, string $value = '');
 
     /**
      * Getting the name of the response object class.
